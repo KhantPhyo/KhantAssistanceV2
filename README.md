@@ -5,6 +5,23 @@ Real-time job dispatching for a personal-assistant team, controllable from both 
 *remote-control* bot that can create/reassign/cancel jobs, broadcast announcements, and pause the
 whole fleet — without ever touching destructive operations like deleting another web admin.
 
+## ⚡ Quick install (any OS)
+
+```bash
+git clone https://github.com/KhantPhyo/KhantAssistanceV2.git
+cd KhantAssistanceV2
+
+# macOS / Linux
+./start.sh
+
+# Windows
+start.bat
+```
+
+→ Web UI: <http://localhost:5173> · Login: `khantphyo.myanmar@gmail.com` / `Cisco@123`
+
+See [INSTALL.md](INSTALL.md) for prerequisites per OS (macOS, Ubuntu, Fedora, Arch, Windows native, WSL2).
+
 ## Architecture
 
 ```mermaid
